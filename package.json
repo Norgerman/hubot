@@ -15,6 +15,7 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "@types/node": "^7.0.18",
     "async": ">=0.1.0 <1.0.0",
     "chalk": "^1.0.0",
     "cline": "^0.8.2",
@@ -28,7 +29,6 @@
     "typescript": "^2.3.2"
   },
   "devDependencies": {
-    "@types/node": "^7.0.18",
     "chai": "~2.1.0",
     "coffee-errors": "0.8.6",
     "hubot-mock-adapter": "^1.0.0",
