@@ -4,6 +4,8 @@ Path           = require 'path'
 HttpClient     = require 'scoped-http-client'
 {EventEmitter} = require 'events'
 async          = require 'async'
+Ts             = require 'ts-node'
+Ts.register {project: Path.join __dirname, "../"}
 
 User = require './user'
 Brain = require './brain'

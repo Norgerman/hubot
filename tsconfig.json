@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "baseUrl": ".",
+        "jsx": "react",
+        "typeRoots": [
+            "node_modules/@types",
+            "typings"
+        ]
+    }
+}
