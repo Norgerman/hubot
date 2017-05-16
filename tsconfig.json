@@ -9,6 +9,7 @@
         "strictNullChecks": true,
         "baseUrl": ".",
         "jsx": "react",
+        "allowJs": true,
         "typeRoots": [
             "node_modules/@types",
             "typings"
